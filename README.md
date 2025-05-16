@@ -1,1 +1,2 @@
-# Awez-CV-TA2
+
+# This notebook explores feature detection techniques in computer vision using OpenCV. It implements Harris Corner Detection to identify strong corners in grayscale images and uses SIFT (Scale-Invariant Feature Transform) for extracting and matching keypoints between images. To ensure robust matching, RANSAC (Random Sample Consensus) is applied to eliminate outliers and estimate homography. Combined, SIFT + RANSAC provide a reliable pipeline for object recognition and alignment, while Harris Corner offers an efficient method for detecting features in structured environments.
